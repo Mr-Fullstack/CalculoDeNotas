@@ -9,7 +9,6 @@ public class CalcularMediaNotas {
 		int quantidadeNotas =0;
 		int confirmacao = JOptionPane.YES_OPTION;
 		
-		
 		while(confirmacao == JOptionPane.YES_OPTION) {
 			String novaNota = JOptionPane.showInputDialog("Digite uma nota");
 			if(novaNota != "" && novaNota != null ) {
